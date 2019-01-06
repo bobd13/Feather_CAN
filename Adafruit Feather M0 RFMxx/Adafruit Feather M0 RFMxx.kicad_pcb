@@ -62,7 +62,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -2670,7 +2670,7 @@
   (segment (start 126.5641 111.0066) (end 127.6731 112.1156) (width 0.254) (layer Top) (net 57) (tstamp 565528EBE850))
   (segment (start 127.6731 112.1156) (end 128.3471 112.1156) (width 0.254) (layer Top) (net 57) (tstamp 565528EBECF0))
 
-  (zone (net 1) (net_name GND) (layer Top) (tstamp 56552625EE10) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Top) (tstamp 5C328433) (hatch edge 0.508)
     (priority 6)
     (connect_pads (clearance 0.000001))
     (min_thickness 0.254)
@@ -3215,7 +3215,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 56552625F800) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5C328430) (hatch edge 0.508)
     (priority 6)
     (connect_pads (clearance 0.000001))
     (min_thickness 0.254)
