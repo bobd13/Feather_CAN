@@ -5,9 +5,9 @@ EELAYER END
 $Descr User 15021 8640
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Adafruit Feather M0 LoRa plus qwiic"
 Date ""
-Rev ""
+Rev "v0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1094,12 +1094,12 @@ $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:GND #GND013
 U 1 0 1DDAFC179E3D6951
-P 13600 3700
-F 0 "#GND013" H 13600 3700 50  0001 C CNN
-F 1 "GND" H 13500 3600 59  0000 L BNN
-F 2 "" H 13600 3700 50  0001 C CNN
-F 3 "" H 13600 3700 50  0001 C CNN
-	1    13600 3700
+P 13600 3800
+F 0 "#GND013" H 13600 3800 50  0001 C CNN
+F 1 "GND" H 13500 3700 59  0000 L BNN
+F 2 "" H 13600 3800 50  0001 C CNN
+F 3 "" H 13600 3800 50  0001 C CNN
+	1    13600 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1459,10 +1459,10 @@ F 11 "" H 2100 700 50  0001 L CNN "Mouser Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_Feather_M0_RFMxx-eagle-import:+3V3 #+3V?
+L Adafruit_Feather_M0_RFMxx-eagle-import:+3V3 #+3V0101
 U 1 0 5C26B83D
 P 2400 1200
-F 0 "#+3V?" H 2400 1200 50  0001 C CNN
+F 0 "#+3V0101" H 2400 1200 50  0001 C CNN
 F 1 "+3V3" V 2300 1000 59  0000 L BNN
 F 2 "" H 2400 1200 50  0001 C CNN
 F 3 "" H 2400 1200 50  0001 C CNN
@@ -1470,10 +1470,10 @@ F 3 "" H 2400 1200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$?
+L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0101
 U 1 0 5C26B88E
 P 1100 1300
-F 0 "#U$?" H 1100 1300 50  0001 C CNN
+F 0 "#U$0101" H 1100 1300 50  0001 C CNN
 F 1 "GND" H 1000 1200 59  0000 L BNN
 F 2 "" H 1100 1300 50  0001 C CNN
 F 3 "" H 1100 1300 50  0001 C CNN
@@ -1496,4 +1496,6 @@ Text Label 1050 1600 0    50   ~ 0
 SDA
 Text Label 2300 1600 0    50   ~ 0
 SCL
+Wire Wire Line
+	13600 3600 13600 3700
 $EndSCHEMATC
