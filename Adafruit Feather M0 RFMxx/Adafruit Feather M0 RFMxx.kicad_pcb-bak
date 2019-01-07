@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 Top signal)
+    (0 Top signal hide)
     (31 Bottom signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
@@ -19,7 +19,7 @@
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
     (37 F.SilkS user hide)
-    (38 B.Mask user hide)
+    (38 B.Mask user)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)

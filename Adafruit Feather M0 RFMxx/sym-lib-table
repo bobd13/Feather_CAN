@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Adafruit_Feather_M0_RFMxx-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_Feather_M0_RFMxx-eagle-import.lib)(options "")(descr ""))
+  (lib (name Adafruit-Feather-M0-RFMxx-rescue)(type Legacy)(uri "${KIPRJMOD}/Adafruit Feather M0 RFMxx-rescue.lib")(options "")(descr ""))
 )

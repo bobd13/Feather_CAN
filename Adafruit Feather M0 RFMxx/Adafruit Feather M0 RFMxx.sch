@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:Adafruit Feather M0 RFMxx-cache
+LIBS:Adafruit Feather M0 Express-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 15021 8640
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Adafruit Feather M0 LoRa plus qwiic"
 Date ""
 Rev "v0.1"
@@ -1445,7 +1446,7 @@ U 1 1 5C26B70B
 P 1450 1500
 F 0 "JP7" H 1850 1765 50  0000 C CNN
 F 1 "SM04B-SRSS-TB(LF)(SN)" H 1850 1674 50  0000 C CNN
-F 2 "SM04B-SRSS-TB(LFSN)" H 2100 1600 50  0001 L CNN
+F 2 "SM04B-SRSS-TB(LF)(SN):SM04B-SRSS-TB(LFSN)" H 2100 1600 50  0001 L CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 2100 1500 50  0001 L CNN
 F 4 "JST (JAPAN SOLDERLESS TERMINALS) - SM04B-SRSS-TB(LF)(SN) - CONNECTOR, HEADER, SMT, R/A, 1MM, 4WAY" H 2100 1400 50  0001 L CNN "Description"
 F 5 "" H 2100 1300 50  0001 L CNN "Height"
@@ -1498,4 +1499,129 @@ Text Label 2300 1600 0    50   ~ 0
 SCL
 Wire Wire Line
 	13600 3600 13600 3700
+$Sheet
+S 6300 7650 2700 850 
+U 5C3457E2
+F0 "flash_sheet" 50
+F1 "flash_sheet.sch" 50
+$EndSheet
+Wire Wire Line
+	3550 3550 3350 3550
+Text Label 3550 3550 0    10   ~ 0
+GND
+Wire Wire Line
+	3350 2750 3350 3050
+Text Label 3350 2750 0    10   ~ 0
++3V3
+Wire Wire Line
+	2150 3450 1850 3450
+Wire Wire Line
+	1850 3450 1850 3550
+Wire Wire Line
+	1850 3550 2150 3550
+Connection ~ 1850 3450
+Text Label 2150 3450 0    10   ~ 0
++3V3
+Wire Wire Line
+	750  2750 750  2850
+Text Label 750  2750 0    10   ~ 0
++3V3
+Wire Wire Line
+	950  3150 2150 3150
+Text Label 1150 3150 0    70   ~ 0
+D4_FLASHMOSI
+Wire Wire Line
+	2150 3050 950  3050
+Text Label 1150 3050 0    70   ~ 0
+D3_FLASHSCK
+Wire Wire Line
+	750  3350 2150 3350
+Wire Wire Line
+	750  3250 750  3350
+Text Label 1150 3350 0    70   ~ 0
+FLASH_CS
+Wire Wire Line
+	2150 3250 950  3250
+Text Label 1150 3250 0    70   ~ 0
+D2_FLASHMISO
+$Comp
+L Adafruit-Feather-M0-RFMxx-rescue:SPIFLASH_SOIC8208MIL-Adafruit_Feather_M0_Express-eagle-import U?
+U 1 0 5C34E5AB
+P 2750 3350
+AR Path="/5C3457E2/5C34E5AB" Ref="U?"  Part="1" 
+AR Path="/5C34E5AB" Ref="U1"  Part="1" 
+F 0 "U1" H 2250 3850 59  0000 L BNN
+F 1 "2MB Flash" H 2250 2950 59  0000 L BNN
+F 2 "Adafruit Feather M0 RFMxx:SOIC8_208MIL" H 2750 3350 50  0001 C CNN
+F 3 "" H 2750 3350 50  0001 C CNN
+	1    2750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Feather-M0-RFMxx-rescue:GND-Adafruit_Feather_M0_Express-eagle-import #U$?
+U 1 0 5C34E5B2
+P 3550 3650
+AR Path="/5C3457E2/5C34E5B2" Ref="#U$?"  Part="1" 
+AR Path="/5C34E5B2" Ref="#U$0102"  Part="1" 
+F 0 "#U$0102" H 3550 3650 50  0001 C CNN
+F 1 "GND" H 3450 3550 59  0000 L BNN
+F 2 "" H 3550 3650 50  0001 C CNN
+F 3 "" H 3550 3650 50  0001 C CNN
+	1    3550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Feather-M0-RFMxx-rescue:RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import R?
+U 1 0 5C34E5B8
+P 750 3050
+AR Path="/5C3457E2/5C34E5B8" Ref="R?"  Part="1" 
+AR Path="/5C34E5B8" Ref="R4"  Part="1" 
+F 0 "R4" H 600 3109 50  0000 L BNN
+F 1 "10K" H 700 2920 40  0000 L BNB
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 750 3050 50  0001 C CNN
+F 3 "" H 750 3050 50  0001 C CNN
+	1    750  3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit-Feather-M0-RFMxx-rescue:+3V3-Adafruit_Feather_M0_Express-eagle-import #+3V?
+U 1 0 5C34E5BF
+P 3350 2650
+AR Path="/5C3457E2/5C34E5BF" Ref="#+3V?"  Part="1" 
+AR Path="/5C34E5BF" Ref="#+3V0102"  Part="1" 
+F 0 "#+3V0102" H 3350 2650 50  0001 C CNN
+F 1 "+3V3" V 3250 2450 59  0000 L BNN
+F 2 "" H 3350 2650 50  0001 C CNN
+F 3 "" H 3350 2650 50  0001 C CNN
+	1    3350 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit-Feather-M0-RFMxx-rescue:+3V3-Adafruit_Feather_M0_Express-eagle-import #+3V?
+U 1 0 5C34E5C5
+P 1750 3450
+AR Path="/5C3457E2/5C34E5C5" Ref="#+3V?"  Part="1" 
+AR Path="/5C34E5C5" Ref="#+3V0103"  Part="1" 
+F 0 "#+3V0103" H 1750 3450 50  0001 C CNN
+F 1 "+3V3" V 1650 3250 59  0000 L BNN
+F 2 "" H 1750 3450 50  0001 C CNN
+F 3 "" H 1750 3450 50  0001 C CNN
+	1    1750 3450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit-Feather-M0-RFMxx-rescue:+3V3-Adafruit_Feather_M0_Express-eagle-import #+3V?
+U 1 0 5C34E5CB
+P 750 2650
+AR Path="/5C3457E2/5C34E5CB" Ref="#+3V?"  Part="1" 
+AR Path="/5C34E5CB" Ref="#+3V0104"  Part="1" 
+F 0 "#+3V0104" H 750 2650 50  0001 C CNN
+F 1 "+3V3" V 650 2450 59  0000 L BNN
+F 2 "" H 750 2650 50  0001 C CNN
+F 3 "" H 750 2650 50  0001 C CNN
+	1    750  2650
+	-1   0    0    -1  
+$EndComp
+Text Notes 1250 2750 0    59   ~ 0
+Internal SPI on SERCOM 2
 $EndSCHEMATC

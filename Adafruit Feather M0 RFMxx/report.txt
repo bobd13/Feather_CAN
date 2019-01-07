@@ -1,0 +1,108 @@
+Info: Checking netlist symbol footprint "U4:/213D9A5C7A1F45AF:Adafruit Feather M0 RFMxx:RFMHCW_SMT".
+
+Info: Checking netlist symbol footprint "R3:/F2089EB9B3EC19A1:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "R4:/5C34E5B8:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "R6:/5CE53E4255AD3E27:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "R8:/60CCA694867544B0:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "SW1:/9A392703E9E31E47:Adafruit Feather M0 RFMxx:KMR2".
+
+Info: Checking netlist symbol footprint "TP1:/23AD0592E5F42BB8:Adafruit Feather M0 RFMxx:TESTPOINT_ROUND_1.5MM".
+
+Info: Checking netlist symbol footprint "TP2:/E74EB8BB93FB0C53:Adafruit Feather M0 RFMxx:TESTPOINT_ROUND_1.5MM".
+
+Info: Checking netlist symbol footprint "U1:/5C34E5AB:Adafruit Feather M0 RFMxx:SOIC8_208MIL".
+
+Info: Checking netlist symbol footprint "U2:/CF5709AAED68AFD:Adafruit Feather M0 RFMxx:SOT23-5".
+
+Info: Checking netlist symbol footprint "U3:/8A1C87D88FB534EA:Adafruit Feather M0 RFMxx:SOT23-5".
+
+Info: Checking netlist symbol footprint "R7:/3D1F42A3A059BC4A:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "U$4:/BB3D513B6D737454:Adafruit Feather M0 RFMxx:TQFN48_7MM".
+
+Info: Checking netlist symbol footprint "U$31:/A05F7C0BF2AE8625:Adafruit Feather M0 RFMxx:MOUNTINGHOLE_2.5_PLATED".
+
+Info: Checking netlist symbol footprint "U$32:/E7810CA7708AA1F2:Adafruit Feather M0 RFMxx:MOUNTINGHOLE_2.5_PLATED".
+
+Info: Checking netlist symbol footprint "U$34:/FE4A60835ECB812F:Adafruit Feather M0 RFMxx:FIDUCIAL_1MM".
+
+Info: Checking netlist symbol footprint "U$35:/C3F28A30B6DE689A:Adafruit Feather M0 RFMxx:FIDUCIAL_1MM".
+
+Info: Checking netlist symbol footprint "X1:/A3F05A4172B9A5F2:Adafruit Feather M0 RFMxx:JSTPH2".
+
+Info: Checking netlist symbol footprint "X2:/BD33CC514BBFE116:Adafruit Feather M0 RFMxx:XTAL3215".
+
+Info: Checking netlist symbol footprint "X3:/7D8697D33992BDB4:Adafruit Feather M0 RFMxx:4UCONN_20329_V2".
+
+Info: Checking netlist symbol footprint "X4:/423AAD794B951945:Adafruit Feather M0 RFMxx:U.FL".
+
+Info: Checking netlist symbol footprint "R1:/386160452C54ECFF:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "C1:/658E3D6CBA02A0BA:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "C2:/299244AFFCCC165D:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "C3:/3A00845A20C94E77:Adafruit Feather M0 RFMxx:0805-NO".
+
+Info: Checking netlist symbol footprint "C4:/D16534E5BD8B3D1F:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "C5:/9F2A8D7409CD1EDC:Adafruit Feather M0 RFMxx:0805-NO".
+
+Info: Checking netlist symbol footprint "C6:/63FBB0F2D44B93C6:Adafruit Feather M0 RFMxx:0805-NO".
+
+Info: Checking netlist symbol footprint "C7:/E90ABE7A226ECD07:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "C8:/9D4D037048336B3A:Adafruit Feather M0 RFMxx:0805-NO".
+
+Info: Checking netlist symbol footprint "C9:/6FF1E0DBD736F15A:Adafruit Feather M0 RFMxx:0805-NO".
+
+Info: Checking netlist symbol footprint "C14:/8A0A181CE5A05DC2:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "CHG1:/430A1C4D3B4DA609:Adafruit Feather M0 RFMxx:CHIPLED_0805_NOOUTLINE".
+
+Info: Checking netlist symbol footprint "D1:/984FE8347B86CF2C:Adafruit Feather M0 RFMxx:SOD-123".
+
+Info: Checking netlist symbol footprint "JP2:/4804D7FCFA93C76E:Adafruit Feather M0 RFMxx:1X01_ROUND".
+
+Info: Checking netlist symbol footprint "R2:/F83122E8A7CCFCE:Adafruit Feather M0 RFMxx:0603-NO".
+
+Info: Checking netlist symbol footprint "L1:/83C2BD49591592A1:Adafruit Feather M0 RFMxx:CHIPLED_0805_NOOUTLINE".
+
+Info: Checking netlist symbol footprint "JP7:/5C26B70B:SM04B-SRSS-TB(LF)(SN):SM04B-SRSS-TB(LFSN)".
+
+Info: Checking netlist symbol footprint "JP5:/B2768A806716FC81:Adafruit Feather M0 RFMxx:1X03_ROUND".
+
+Info: Checking netlist symbol footprint "JP3:/CD71B194ACD8E5B6:Adafruit Feather M0 RFMxx:1X12_ROUND".
+
+Info: Checking netlist symbol footprint "JP1:/848DA6002F430EF2:Adafruit Feather M0 RFMxx:1X16_ROUND".
+
+Changing footprint "U1:/5C34E5AB" pad "5" net name from "" to "/D4_FLASHMOSI".
+
+Adding new symbol "U1:/5C34E5AB" footprint "Adafruit Feather M0 RFMxx:SOIC8_208MIL".
+
+Changing footprint "U1:/5C34E5AB" pad "6" net name from "" to "/D3_FLASHSCK".
+
+Changing footprint "U1:/5C34E5AB" pad "2" net name from "" to "/D2_FLASHMISO".
+
+Changing footprint "U1:/5C34E5AB" pad "8" net name from "" to "+3V3".
+
+Changing footprint "U1:/5C34E5AB" pad "4" net name from "" to "GND".
+
+Changing footprint "U1:/5C34E5AB" pad "3" net name from "" to "+3V3".
+
+Changing footprint "U1:/5C34E5AB" pad "1" net name from "" to "/FLASH_CS".
+
+Changing footprint "R4:/5C34E5B8" pad "2" net name from "" to "+3V3".
+
+Changing footprint "R4:/5C34E5B8" pad "1" net name from "" to "/FLASH_CS".
+
+Adding new symbol "R4:/5C34E5B8" footprint "Adafruit Feather M0 RFMxx:0603-NO".
+
+Changing footprint "U1:/5C34E5AB" pad "7" net name from "" to "+3V3".
+
+Warning: Footprint of symbol "JP7" changed: board footprint "SM04B-SRSS-TB(LFSN)", netlist footprint "SM04B-SRSS-TB(LF)(SN):SM04B-SRSS-TB(LFSN)"
+
