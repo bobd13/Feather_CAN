@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:Adafruit Feather M0 RFMxx-cache
-LIBS:Adafruit Feather M0 Express-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 15021 8640
@@ -495,7 +494,7 @@ D3_IRQ
 Wire Wire Line
 	8000 5400 8700 5400
 Text Label 8300 5400 0    70   ~ 0
-D2
+D2_FLASHMISO
 Wire Wire Line
 	700  6300 1300 6300
 Text Label 700  6300 0    70   ~ 0
@@ -1416,8 +1415,6 @@ Text Notes 11900 1500 0    59   ~ 0
 2.0K  = 500mA
 Text Notes 11900 1600 0    59   ~ 0
 1.0K  = 1000mA
-Text Notes 8300 5200 0    59   ~ 0
-N/C
 Text Notes 8300 6700 0    59   ~ 0
 TXLED
 Text Notes 8300 6800 0    59   ~ 0
@@ -1624,4 +1621,8 @@ F 3 "" H 750 2650 50  0001 C CNN
 $EndComp
 Text Notes 1250 2750 0    59   ~ 0
 Internal SPI on SERCOM 2
+Text Label 8300 5200 0    50   ~ 0
+FLASH_CS
+Wire Wire Line
+	8000 5200 8700 5200
 $EndSCHEMATC
