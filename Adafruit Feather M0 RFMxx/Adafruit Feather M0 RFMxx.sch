@@ -486,11 +486,11 @@ EN
 Wire Wire Line
 	8000 4800 8700 4800
 Text Label 8300 4800 0    70   ~ 0
-D3_IRQ
+D3_FLASHSCK
 Wire Wire Line
 	2300 6000 2900 6000
 Text Label 2500 6000 0    70   ~ 0
-D3_IRQ
+RXD_IRQ
 Wire Wire Line
 	8000 5400 8700 5400
 Text Label 8300 5400 0    70   ~ 0
@@ -498,11 +498,11 @@ D2_FLASHMISO
 Wire Wire Line
 	700  6300 1300 6300
 Text Label 700  6300 0    70   ~ 0
-D4_RST
+TXD_RST
 Wire Wire Line
 	8700 4700 8000 4700
 Text Label 8300 4700 0    70   ~ 0
-D4_RST
+D4_FLASHMOSI
 Wire Wire Line
 	700  6200 1300 6200
 Text Label 800  6200 0    70   ~ 0
@@ -1421,10 +1421,6 @@ Text Notes 8300 6800 0    59   ~ 0
 USBHOSTEN
 Text Notes 4600 5300 0    59   ~ 0
 RXLED
-Text Notes 4600 5800 0    59   ~ 0
-TXD
-Text Notes 4600 5900 0    59   ~ 0
-RXD
 Text Notes 10500 1000 0    59   ~ 0
 USB AND BATTERY CHARGING
 Text Notes 10100 5900 0    59   ~ 0
@@ -1625,4 +1621,12 @@ Text Label 8300 5200 0    50   ~ 0
 FLASH_CS
 Wire Wire Line
 	8000 5200 8700 5200
+Wire Wire Line
+	4600 5900 5000 5900
+Wire Wire Line
+	5000 5800 4600 5800
+Text Label 4600 5900 0    50   ~ 0
+TXD_RST
+Text Label 4600 5800 0    50   ~ 0
+RXD_IRQ
 $EndSCHEMATC
