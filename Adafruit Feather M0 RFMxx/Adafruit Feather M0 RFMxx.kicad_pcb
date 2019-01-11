@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 113)
+    (drawings 112)
     (tracks 871)
     (zones 0)
     (modules 41)
@@ -21,7 +21,7 @@
     (37 F.SilkS user hide)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
@@ -1658,7 +1658,6 @@
   )
 
   (gr_poly (pts (xy 163.957 106.426) (xy 156.21 106.426) (xy 156.21 108.077) (xy 163.957 108.077)) (layer B.SilkS) (width 0.15))
-  (gr_poly (pts (xy 164.338 100.33) (xy 156.337 100.33) (xy 156.337 102.87) (xy 164.338 102.87)) (layer B.SilkS) (width 0.15))
   (gr_poly (pts (xy 165.481 108.585) (xy 156.21 108.585) (xy 156.21 110.617) (xy 165.481 110.617)) (layer B.SilkS) (width 0.15))
   (gr_line (start 125.6411 116.4336) (end 171.3611 116.4336) (layer Edge.Cuts) (width 0.15) (tstamp 56552332AEE0))
   (gr_arc (start 171.3611 113.8936) (end 171.3611 116.4336) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 56552332B370))
@@ -2929,7 +2928,7 @@
   (segment (start 144.07599 106.797628) (end 141.900814 104.622452) (width 0.25) (layer Bottom) (net 57))
   (segment (start 165.862 108.077) (end 165.268601 108.670399) (width 0.25) (layer Bottom) (net 57))
 
-  (zone (net 1) (net_name GND) (layer Top) (tstamp 5C36C352) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Top) (tstamp 5C37FCDB) (hatch edge 0.508)
     (priority 6)
     (connect_pads (clearance 0.000001))
     (min_thickness 0.254)
@@ -3526,7 +3525,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5C36C34F) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer Bottom) (tstamp 5C37FCD8) (hatch edge 0.508)
     (priority 6)
     (connect_pads (clearance 0.000001))
     (min_thickness 0.254)
