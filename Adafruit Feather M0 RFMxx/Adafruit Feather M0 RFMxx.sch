@@ -88,25 +88,25 @@ Wire Wire Line
 Text Label 7600 2500 0    10   ~ 0
 GND
 Wire Wire Line
-	3300 6600 3300 6700
-Text Label 3300 6600 0    10   ~ 0
+	3250 7600 3250 7700
+Text Label 3250 7600 0    10   ~ 0
 GND
 Wire Wire Line
-	1300 6500 1100 6500
-Text Label 1300 6500 0    10   ~ 0
+	1250 7500 1050 7500
+Text Label 1250 7500 0    10   ~ 0
 GND
 Wire Wire Line
-	1300 5800 1100 5800
-Text Label 1300 5800 0    10   ~ 0
+	1250 6800 1050 6800
+Text Label 1250 6800 0    10   ~ 0
 GND
 Wire Wire Line
-	2300 6400 2900 6400
-Text Label 2300 6400 0    10   ~ 0
+	2250 7400 2850 7400
+Text Label 2250 7400 0    10   ~ 0
 GND
 Wire Wire Line
-	2300 6800 2300 6900
-Connection ~ 2300 6900
-Text Label 2300 6800 0    10   ~ 0
+	2250 7800 2250 7900
+Connection ~ 2250 7900
+Text Label 2250 7800 0    10   ~ 0
 GND
 Wire Wire Line
 	12300 5500 11700 5500
@@ -117,8 +117,8 @@ Wire Wire Line
 Text Label 4600 5600 0    70   ~ 0
 MOSI
 Wire Wire Line
-	700  6000 1300 6000
-Text Label 800  6000 0    70   ~ 0
+	650  7000 1250 7000
+Text Label 750  7000 0    70   ~ 0
 MOSI
 Wire Wire Line
 	11700 5600 12300 5600
@@ -129,8 +129,8 @@ Wire Wire Line
 Text Label 8300 5100 0    70   ~ 0
 MISO
 Wire Wire Line
-	1300 5900 700  5900
-Text Label 700  5900 0    70   ~ 0
+	1250 6900 650  6900
+Text Label 650  6900 0    70   ~ 0
 MISO
 Wire Wire Line
 	12300 5400 11700 5400
@@ -141,8 +141,8 @@ Wire Wire Line
 Text Label 4600 5700 0    70   ~ 0
 SCK
 Wire Wire Line
-	700  6100 1300 6100
-Text Label 800  6100 0    70   ~ 0
+	650  7100 1250 7100
+Text Label 750  7100 0    70   ~ 0
 SCK
 Wire Wire Line
 	11700 5300 12300 5300
@@ -251,13 +251,13 @@ Wire Wire Line
 Text Label 7600 2000 0    10   ~ 0
 +3V3
 Wire Wire Line
-	2300 6100 3300 6100
+	2250 7100 3250 7100
 Wire Wire Line
-	3300 6100 3300 6000
+	3250 7100 3250 7000
 Wire Wire Line
-	3300 6100 3300 6300
-Connection ~ 3300 6100
-Text Label 2300 6100 0    10   ~ 0
+	3250 7100 3250 7300
+Connection ~ 3250 7100
+Text Label 2250 7100 0    10   ~ 0
 +3V3
 Wire Wire Line
 	5000 1800 4700 1800
@@ -488,24 +488,24 @@ Wire Wire Line
 Text Label 8300 4800 0    70   ~ 0
 D3_FLASHSCK
 Wire Wire Line
-	2300 6000 2900 6000
-Text Label 2500 6000 0    70   ~ 0
+	2250 7000 2850 7000
+Text Label 2450 7000 0    70   ~ 0
 RXD_IRQ
 Wire Wire Line
 	8000 5400 8700 5400
 Text Label 8300 5400 0    70   ~ 0
 D2_FLASHMISO
 Wire Wire Line
-	700  6300 1300 6300
-Text Label 700  6300 0    70   ~ 0
+	650  7300 1250 7300
+Text Label 450  4250 0    70   ~ 0
 TXD_RST
 Wire Wire Line
 	8700 4700 8000 4700
 Text Label 8300 4700 0    70   ~ 0
 D4_FLASHMOSI
 Wire Wire Line
-	700  6200 1300 6200
-Text Label 800  6200 0    70   ~ 0
+	650  7200 1250 7200
+Text Label 750  7200 0    70   ~ 0
 D8_CS
 Wire Wire Line
 	8000 4400 8700 4400
@@ -516,41 +516,41 @@ Wire Wire Line
 Text Label 8300 6100 0    70   ~ 0
 D7
 Wire Wire Line
-	2300 6500 2600 6500
+	2250 7500 2550 7500
 Wire Wire Line
-	2600 6500 2600 6600
-Connection ~ 2600 6600
+	2550 7500 2550 7600
+Connection ~ 2550 7600
 Wire Wire Line
-	2300 6300 2900 6300
-Text Label 2400 6300 0    70   ~ 0
+	2250 7300 2850 7300
+Text Label 2350 7300 0    70   ~ 0
 DIO3
 Wire Wire Line
-	3400 7500 4200 7500
-Text Label 3900 7500 0    70   ~ 0
+	4300 7500 5100 7500
+Text Label 4800 7500 0    70   ~ 0
 DIO3
 Wire Wire Line
-	2300 5800 2900 5800
-Text Label 2900 5800 2    70   ~ 0
+	2250 6800 2850 6800
+Text Label 2850 6800 2    70   ~ 0
 DIO2
 Wire Wire Line
-	4200 7400 3400 7400
-Text Label 3900 7400 0    70   ~ 0
+	5100 7400 4300 7400
+Text Label 4800 7400 0    70   ~ 0
 DIO2
 Wire Wire Line
-	2300 5900 2900 5900
-Text Label 2900 5900 2    70   ~ 0
+	2250 6900 2850 6900
+Text Label 2850 6900 2    70   ~ 0
 DIO1
 Wire Wire Line
 	11700 5900 12300 5900
 Text Label 11700 5900 0    70   ~ 0
 DIO1
 Wire Wire Line
-	1300 6400 700  6400
-Text Label 700  6400 0    70   ~ 0
+	1250 7400 650  7400
+Text Label 650  7400 0    70   ~ 0
 DIO5
 Wire Wire Line
-	3400 7600 4200 7600
-Text Label 3900 7600 0    70   ~ 0
+	4300 7600 5100 7600
+Text Label 4800 7600 0    70   ~ 0
 DIO5
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:FRAME_A4 #FRAME1
@@ -1281,122 +1281,122 @@ $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$014
 U 1 0 9F7E67D4491AF09A
-P 3300 6800
-F 0 "#U$014" H 3300 6800 50  0001 C CNN
-F 1 "GND" H 3200 6700 59  0000 L BNN
-F 2 "" H 3300 6800 50  0001 C CNN
-F 3 "" H 3300 6800 50  0001 C CNN
-	1    3300 6800
+P 3250 7800
+F 0 "#U$014" H 3250 7800 50  0001 C CNN
+F 1 "GND" H 3150 7700 59  0000 L BNN
+F 2 "" H 3250 7800 50  0001 C CNN
+F 3 "" H 3250 7800 50  0001 C CNN
+	1    3250 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:CAP_CERAMIC0805-NOOUTLINE C9
 U 1 0 6FF1E0DBD736F15A
-P 3300 6500
-F 0 "C9" V 3210 6549 50  0000 C CNN
-F 1 "10uF" V 3390 6549 50  0000 C CNN
-F 2 "Adafruit Feather M0 RFMxx:0805-NO" H 3300 6500 50  0001 C CNN
-F 3 "" H 3300 6500 50  0001 C CNN
-	1    3300 6500
+P 3250 7500
+F 0 "C9" V 3160 7549 50  0000 C CNN
+F 1 "10uF" V 3340 7549 50  0000 C CNN
+F 2 "Adafruit Feather M0 RFMxx:0805-NO" H 3250 7500 50  0001 C CNN
+F 3 "" H 3250 7500 50  0001 C CNN
+	1    3250 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$015
 U 1 0 772292A5D0458224
-P 1000 6500
-F 0 "#U$015" H 1000 6500 50  0001 C CNN
-F 1 "GND" H 900 6400 59  0000 L BNN
-F 2 "" H 1000 6500 50  0001 C CNN
-F 3 "" H 1000 6500 50  0001 C CNN
-	1    1000 6500
+P 950 7500
+F 0 "#U$015" H 950 7500 50  0001 C CNN
+F 1 "GND" H 850 7400 59  0000 L BNN
+F 2 "" H 950 7500 50  0001 C CNN
+F 3 "" H 950 7500 50  0001 C CNN
+	1    950  7500
 	0    1    1    0   
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:+3V3 #+3V05
 U 1 0 499E1510D30003A2
-P 3300 5900
-F 0 "#+3V05" H 3300 5900 50  0001 C CNN
-F 1 "+3V3" V 3200 5700 59  0000 L BNN
-F 2 "" H 3300 5900 50  0001 C CNN
-F 3 "" H 3300 5900 50  0001 C CNN
-	1    3300 5900
+P 3250 6900
+F 0 "#+3V05" H 3250 6900 50  0001 C CNN
+F 1 "+3V3" V 3150 6700 59  0000 L BNN
+F 2 "" H 3250 6900 50  0001 C CNN
+F 3 "" H 3250 6900 50  0001 C CNN
+	1    3250 6900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:HEADER-1X1ROUND JP2
 U 1 0 4804D7FCFA93C76E
-P 2700 6600
-F 0 "JP2" H 2450 6725 59  0000 L BNN
-F 1 "HEADER-1X1ROUND" H 2450 6400 59  0000 L BNN
-F 2 "Adafruit Feather M0 RFMxx:1X01_ROUND" H 2700 6600 50  0001 C CNN
-F 3 "" H 2700 6600 50  0001 C CNN
-	1    2700 6600
+P 2650 7600
+F 0 "JP2" H 2400 7725 59  0000 L BNN
+F 1 "HEADER-1X1ROUND" H 2400 7400 59  0000 L BNN
+F 2 "Adafruit Feather M0 RFMxx:1X01_ROUND" H 2650 7600 50  0001 C CNN
+F 3 "" H 2650 7600 50  0001 C CNN
+	1    2650 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:RFM69HCW_SMT U4
 U 1 0 213D9A5C7A1F45AF
-P 1800 6100
-F 0 "U4" H 1400 6800 42  0000 L BNN
-F 1 "RFM69HCW" H 1400 5300 42  0000 L BNN
-F 2 "Adafruit Feather M0 RFMxx:RFMHCW_SMT" H 1800 6100 50  0001 C CNN
-F 3 "" H 1800 6100 50  0001 C CNN
-	1    1800 6100
+P 1750 7100
+F 0 "U4" H 1350 7800 42  0000 L BNN
+F 1 "RFM69HCW" H 1350 6300 42  0000 L BNN
+F 2 "Adafruit Feather M0 RFMxx:RFMHCW_SMT" H 1750 7100 50  0001 C CNN
+F 3 "" H 1750 7100 50  0001 C CNN
+	1    1750 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$017
 U 1 0 807B5DA248FA5267
-P 1000 5800
-F 0 "#U$017" H 1000 5800 50  0001 C CNN
-F 1 "GND" H 900 5700 59  0000 L BNN
-F 2 "" H 1000 5800 50  0001 C CNN
-F 3 "" H 1000 5800 50  0001 C CNN
-	1    1000 5800
+P 950 6800
+F 0 "#U$017" H 950 6800 50  0001 C CNN
+F 1 "GND" H 850 6700 59  0000 L BNN
+F 2 "" H 950 6800 50  0001 C CNN
+F 3 "" H 950 6800 50  0001 C CNN
+	1    950  6800
 	0    1    1    0   
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$018
 U 1 0 C655DEF205CF6AB
-P 3000 6400
-F 0 "#U$018" H 3000 6400 50  0001 C CNN
-F 1 "GND" H 2900 6300 59  0000 L BNN
-F 2 "" H 3000 6400 50  0001 C CNN
-F 3 "" H 3000 6400 50  0001 C CNN
-	1    3000 6400
+P 2950 7400
+F 0 "#U$018" H 2950 7400 50  0001 C CNN
+F 1 "GND" H 2850 7300 59  0000 L BNN
+F 2 "" H 2950 7400 50  0001 C CNN
+F 3 "" H 2950 7400 50  0001 C CNN
+	1    2950 7400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:ANTENNA_U.FL X4
 U 1 0 423AAD794B951945
-P 2400 6600
-F 0 "X4" H 2300 6730 42  0000 L BNN
-F 1 "uFL" H 2300 6200 42  0000 L BNN
-F 2 "Adafruit Feather M0 RFMxx:U.FL" H 2400 6600 50  0001 C CNN
-F 3 "" H 2400 6600 50  0001 C CNN
-	1    2400 6600
+P 2350 7600
+F 0 "X4" H 2250 7730 42  0000 L BNN
+F 1 "uFL" H 2250 7200 42  0000 L BNN
+F 2 "Adafruit Feather M0 RFMxx:U.FL" H 2350 7600 50  0001 C CNN
+F 3 "" H 2350 7600 50  0001 C CNN
+	1    2350 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$023
 U 1 0 3B5470D1026FD684
-P 2300 7000
-F 0 "#U$023" H 2300 7000 50  0001 C CNN
-F 1 "GND" H 2200 6900 59  0000 L BNN
-F 2 "" H 2300 7000 50  0001 C CNN
-F 3 "" H 2300 7000 50  0001 C CNN
-	1    2300 7000
+P 2250 8000
+F 0 "#U$023" H 2250 8000 50  0001 C CNN
+F 1 "GND" H 2150 7900 59  0000 L BNN
+F 2 "" H 2250 8000 50  0001 C CNN
+F 3 "" H 2250 8000 50  0001 C CNN
+	1    2250 8000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:HEADER-1X3ROUND JP5
 U 1 0 B2768A806716FC81
-P 3300 7500
-F 0 "JP5" H 3050 7725 59  0000 L BNN
-F 1 "HEADER-1X3ROUND" H 3050 7200 59  0000 L BNN
-F 2 "Adafruit Feather M0 RFMxx:1X03_ROUND" H 3300 7500 50  0001 C CNN
-F 3 "" H 3300 7500 50  0001 C CNN
-	1    3300 7500
+P 4200 7500
+F 0 "JP5" H 3950 7725 59  0000 L BNN
+F 1 "HEADER-1X3ROUND" H 3950 7200 59  0000 L BNN
+F 2 "Adafruit Feather M0 RFMxx:1X03_ROUND" H 4200 7500 50  0001 C CNN
+F 3 "" H 4200 7500 50  0001 C CNN
+	1    4200 7500
 	-1   0    0    1   
 $EndComp
 Text Notes 5600 900  0    59   ~ 0
@@ -1428,7 +1428,7 @@ BREAKOUTS
 Text Notes 13300 4300 0    59   ~ 0
 RED LED
 Wire Notes Line
-	4100 2800 9200 2800
+	3450 2850 8550 2850
 Wire Notes Line
 	9200 700  9200 6100
 Wire Notes Line
@@ -1436,59 +1436,59 @@ Wire Notes Line
 $Comp
 L SM04B-SRSS-TB(LF)(SN):SM04B-SRSS-TB(LF)(SN) JP7
 U 1 1 5C26B70B
-P 1450 1500
-F 0 "JP7" H 1850 1765 50  0000 C CNN
-F 1 "SM04B-SRSS-TB(LF)(SN)" H 1850 1674 50  0000 C CNN
-F 2 "SM04B-SRSS-TB(LF)(SN):SM04B-SRSS-TB(LFSN)" H 2100 1600 50  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 2100 1500 50  0001 L CNN
-F 4 "JST (JAPAN SOLDERLESS TERMINALS) - SM04B-SRSS-TB(LF)(SN) - CONNECTOR, HEADER, SMT, R/A, 1MM, 4WAY" H 2100 1400 50  0001 L CNN "Description"
-F 5 "" H 2100 1300 50  0001 L CNN "Height"
-F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 2100 1200 50  0001 L CNN "Manufacturer_Name"
-F 7 "SM04B-SRSS-TB(LF)(SN)" H 2100 1100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 2100 1000 50  0001 L CNN "RS Part Number"
-F 9 "" H 2100 900 50  0001 L CNN "RS Price/Stock"
-F 10 "" H 2100 800 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 2100 700 50  0001 L CNN "Mouser Price/Stock"
-	1    1450 1500
+P 1450 800
+F 0 "JP7" H 1850 1065 50  0000 C CNN
+F 1 "SM04B-SRSS-TB(LF)(SN)" H 1850 974 50  0000 C CNN
+F 2 "SM04B-SRSS-TB(LF)(SN):SM04B-SRSS-TB(LFSN)" H 2100 900 50  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 2100 800 50  0001 L CNN
+F 4 "JST (JAPAN SOLDERLESS TERMINALS) - SM04B-SRSS-TB(LF)(SN) - CONNECTOR, HEADER, SMT, R/A, 1MM, 4WAY" H 2100 700 50  0001 L CNN "Description"
+F 5 "" H 2100 600 50  0001 L CNN "Height"
+F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 2100 500 50  0001 L CNN "Manufacturer_Name"
+F 7 "SM04B-SRSS-TB(LF)(SN)" H 2100 400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 2100 300 50  0001 L CNN "RS Part Number"
+F 9 "" H 2100 200 50  0001 L CNN "RS Price/Stock"
+F 10 "" H 2100 100 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 2100 0   50  0001 L CNN "Mouser Price/Stock"
+	1    1450 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:+3V3 #+3V0101
 U 1 0 5C26B83D
-P 2400 1200
-F 0 "#+3V0101" H 2400 1200 50  0001 C CNN
-F 1 "+3V3" V 2300 1000 59  0000 L BNN
-F 2 "" H 2400 1200 50  0001 C CNN
-F 3 "" H 2400 1200 50  0001 C CNN
-	1    2400 1200
+P 2400 500
+F 0 "#+3V0101" H 2400 500 50  0001 C CNN
+F 1 "+3V3" V 2300 300 59  0000 L BNN
+F 2 "" H 2400 500 50  0001 C CNN
+F 3 "" H 2400 500 50  0001 C CNN
+	1    2400 500 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0101
 U 1 0 5C26B88E
-P 1100 1300
-F 0 "#U$0101" H 1100 1300 50  0001 C CNN
-F 1 "GND" H 1000 1200 59  0000 L BNN
-F 2 "" H 1100 1300 50  0001 C CNN
-F 3 "" H 1100 1300 50  0001 C CNN
-	1    1100 1300
+P 1100 600
+F 0 "#U$0101" H 1100 600 50  0001 C CNN
+F 1 "GND" H 1000 500 59  0000 L BNN
+F 2 "" H 1100 600 50  0001 C CNN
+F 3 "" H 1100 600 50  0001 C CNN
+	1    1100 600 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1450 1500 1100 1500
+	1450 800  1100 800 
 Wire Wire Line
-	1100 1500 1100 1400
+	1100 800  1100 700 
 Wire Wire Line
-	1450 1600 1000 1600
+	1450 900  1000 900 
 Wire Wire Line
-	2250 1500 2400 1500
+	2250 800  2400 800 
 Wire Wire Line
-	2400 1500 2400 1300
+	2400 800  2400 600 
 Wire Wire Line
-	2250 1600 2500 1600
-Text Label 1050 1600 0    50   ~ 0
+	2250 900  2500 900 
+Text Label 1050 900  0    50   ~ 0
 SDA
-Text Label 2300 1600 0    50   ~ 0
+Text Label 2300 900  0    50   ~ 0
 SCL
 Wire Wire Line
 	13600 3600 13600 3700
@@ -1499,123 +1499,123 @@ F0 "flash_sheet" 50
 F1 "flash_sheet.sch" 50
 $EndSheet
 Wire Wire Line
-	3550 3550 3350 3550
-Text Label 3550 3550 0    10   ~ 0
+	3250 2150 3050 2150
+Text Label 3250 2150 0    10   ~ 0
 GND
 Wire Wire Line
-	3350 2750 3350 3050
-Text Label 3350 2750 0    10   ~ 0
+	3050 1350 3050 1650
+Text Label 3050 1350 0    10   ~ 0
 +3V3
 Wire Wire Line
-	2150 3450 1850 3450
+	1850 2050 1550 2050
 Wire Wire Line
-	1850 3450 1850 3550
+	1550 2050 1550 2150
 Wire Wire Line
-	1850 3550 2150 3550
-Connection ~ 1850 3450
-Text Label 2150 3450 0    10   ~ 0
+	1550 2150 1850 2150
+Connection ~ 1550 2050
+Text Label 1850 2050 0    10   ~ 0
 +3V3
 Wire Wire Line
-	750  2750 750  2850
-Text Label 750  2750 0    10   ~ 0
+	450  1350 450  1450
+Text Label 450  1350 0    10   ~ 0
 +3V3
 Wire Wire Line
-	950  3150 2150 3150
-Text Label 1150 3150 0    70   ~ 0
+	650  1750 1850 1750
+Text Label 850  1750 0    70   ~ 0
 D4_FLASHMOSI
 Wire Wire Line
-	2150 3050 950  3050
-Text Label 1150 3050 0    70   ~ 0
+	1850 1650 650  1650
+Text Label 850  1650 0    70   ~ 0
 D3_FLASHSCK
 Wire Wire Line
-	750  3350 2150 3350
+	450  1950 1850 1950
 Wire Wire Line
-	750  3250 750  3350
-Text Label 1150 3350 0    70   ~ 0
+	450  1850 450  1950
+Text Label 850  1950 0    70   ~ 0
 FLASH_CS
 Wire Wire Line
-	2150 3250 950  3250
-Text Label 1150 3250 0    70   ~ 0
+	1850 1850 650  1850
+Text Label 850  1850 0    70   ~ 0
 D2_FLASHMISO
 $Comp
 L Adafruit-Feather-M0-RFMxx-rescue:SPIFLASH_SOIC8208MIL-Adafruit_Feather_M0_Express-eagle-import U?
 U 1 0 5C34E5AB
-P 2750 3350
+P 2450 1950
 AR Path="/5C3457E2/5C34E5AB" Ref="U?"  Part="1" 
 AR Path="/5C34E5AB" Ref="U1"  Part="1" 
-F 0 "U1" H 2250 3850 59  0000 L BNN
-F 1 "2MB Flash" H 2250 2950 59  0000 L BNN
-F 2 "Adafruit Feather M0 RFMxx:SOIC8_208MIL" H 2750 3350 50  0001 C CNN
-F 3 "" H 2750 3350 50  0001 C CNN
-	1    2750 3350
+F 0 "U1" H 1950 2450 59  0000 L BNN
+F 1 "2MB Flash" H 1950 1550 59  0000 L BNN
+F 2 "Adafruit Feather M0 RFMxx:SOIC8_208MIL" H 2450 1950 50  0001 C CNN
+F 3 "" H 2450 1950 50  0001 C CNN
+	1    2450 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-Feather-M0-RFMxx-rescue:GND-Adafruit_Feather_M0_Express-eagle-import #U$?
 U 1 0 5C34E5B2
-P 3550 3650
+P 3250 2250
 AR Path="/5C3457E2/5C34E5B2" Ref="#U$?"  Part="1" 
 AR Path="/5C34E5B2" Ref="#U$0102"  Part="1" 
-F 0 "#U$0102" H 3550 3650 50  0001 C CNN
-F 1 "GND" H 3450 3550 59  0000 L BNN
-F 2 "" H 3550 3650 50  0001 C CNN
-F 3 "" H 3550 3650 50  0001 C CNN
-	1    3550 3650
+F 0 "#U$0102" H 3250 2250 50  0001 C CNN
+F 1 "GND" H 3150 2150 59  0000 L BNN
+F 2 "" H 3250 2250 50  0001 C CNN
+F 3 "" H 3250 2250 50  0001 C CNN
+	1    3250 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Adafruit-Feather-M0-RFMxx-rescue:RESISTOR_0603_NOOUT-Adafruit_Feather_M0_Express-eagle-import R?
 U 1 0 5C34E5B8
-P 750 3050
+P 450 1650
 AR Path="/5C3457E2/5C34E5B8" Ref="R?"  Part="1" 
 AR Path="/5C34E5B8" Ref="R4"  Part="1" 
-F 0 "R4" H 600 3109 50  0000 L BNN
-F 1 "10K" H 700 2920 40  0000 L BNB
-F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 750 3050 50  0001 C CNN
-F 3 "" H 750 3050 50  0001 C CNN
-	1    750  3050
+F 0 "R4" H 300 1709 50  0000 L BNN
+F 1 "10K" H 400 1520 40  0000 L BNB
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 450 1650 50  0001 C CNN
+F 3 "" H 450 1650 50  0001 C CNN
+	1    450  1650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Adafruit-Feather-M0-RFMxx-rescue:+3V3-Adafruit_Feather_M0_Express-eagle-import #+3V?
 U 1 0 5C34E5BF
-P 3350 2650
+P 3050 1250
 AR Path="/5C3457E2/5C34E5BF" Ref="#+3V?"  Part="1" 
 AR Path="/5C34E5BF" Ref="#+3V0102"  Part="1" 
-F 0 "#+3V0102" H 3350 2650 50  0001 C CNN
-F 1 "+3V3" V 3250 2450 59  0000 L BNN
-F 2 "" H 3350 2650 50  0001 C CNN
-F 3 "" H 3350 2650 50  0001 C CNN
-	1    3350 2650
+F 0 "#+3V0102" H 3050 1250 50  0001 C CNN
+F 1 "+3V3" V 2950 1050 59  0000 L BNN
+F 2 "" H 3050 1250 50  0001 C CNN
+F 3 "" H 3050 1250 50  0001 C CNN
+	1    3050 1250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Adafruit-Feather-M0-RFMxx-rescue:+3V3-Adafruit_Feather_M0_Express-eagle-import #+3V?
 U 1 0 5C34E5C5
-P 1750 3450
+P 1450 2050
 AR Path="/5C3457E2/5C34E5C5" Ref="#+3V?"  Part="1" 
 AR Path="/5C34E5C5" Ref="#+3V0103"  Part="1" 
-F 0 "#+3V0103" H 1750 3450 50  0001 C CNN
-F 1 "+3V3" V 1650 3250 59  0000 L BNN
-F 2 "" H 1750 3450 50  0001 C CNN
-F 3 "" H 1750 3450 50  0001 C CNN
-	1    1750 3450
+F 0 "#+3V0103" H 1450 2050 50  0001 C CNN
+F 1 "+3V3" V 1350 1850 59  0000 L BNN
+F 2 "" H 1450 2050 50  0001 C CNN
+F 3 "" H 1450 2050 50  0001 C CNN
+	1    1450 2050
 	0    -1   1    0   
 $EndComp
 $Comp
 L Adafruit-Feather-M0-RFMxx-rescue:+3V3-Adafruit_Feather_M0_Express-eagle-import #+3V?
 U 1 0 5C34E5CB
-P 750 2650
+P 450 1250
 AR Path="/5C3457E2/5C34E5CB" Ref="#+3V?"  Part="1" 
 AR Path="/5C34E5CB" Ref="#+3V0104"  Part="1" 
-F 0 "#+3V0104" H 750 2650 50  0001 C CNN
-F 1 "+3V3" V 650 2450 59  0000 L BNN
-F 2 "" H 750 2650 50  0001 C CNN
-F 3 "" H 750 2650 50  0001 C CNN
-	1    750  2650
+F 0 "#+3V0104" H 450 1250 50  0001 C CNN
+F 1 "+3V3" V 350 1050 59  0000 L BNN
+F 2 "" H 450 1250 50  0001 C CNN
+F 3 "" H 450 1250 50  0001 C CNN
+	1    450  1250
 	-1   0    0    -1  
 $EndComp
-Text Notes 1250 2750 0    59   ~ 0
+Text Notes 950  1350 0    59   ~ 0
 Internal SPI on SERCOM 2
 Text Label 8300 5200 0    50   ~ 0
 FLASH_CS
@@ -1629,4 +1629,355 @@ Text Label 4600 5900 0    50   ~ 0
 TXD_RST
 Text Label 4600 5800 0    50   ~ 0
 RXD_IRQ
+$Comp
+L Interface_CAN_LIN:MCP25625-x-SS U31
+U 1 1 5C38B95A
+P 1500 4450
+F 0 "U31" H 2200 3650 50  0000 C CNN
+F 1 "MCP25625-x-SS" H 2450 3550 50  0000 C CNN
+F 2 "Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm" H 1600 4150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005282B.pdf" H 1500 5050 50  0001 C CNN
+	1    1500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0103
+U 1 0 5C3B55E8
+P 1400 5800
+F 0 "#U$0103" H 1400 5800 50  0001 C CNN
+F 1 "GND" H 1300 5700 59  0000 L BNN
+F 2 "" H 1400 5800 50  0001 C CNN
+F 3 "" H 1400 5800 50  0001 C CNN
+	1    1400 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5550 1400 5700
+Wire Wire Line
+	450  4050 900  4050
+Wire Wire Line
+	450  3950 900  3950
+Wire Wire Line
+	900  3850 450  3850
+Wire Wire Line
+	450  3750 900  3750
+Wire Wire Line
+	500  5150 900  5150
+Wire Wire Line
+	1300 3350 1300 3100
+Wire Wire Line
+	1700 3350 1700 3050
+Wire Wire Line
+	1400 3350 1400 3000
+Text Label 550  3750 0    50   ~ 0
+SCK
+Text Label 550  3850 0    50   ~ 0
+MOSI
+Text Label 550  3950 0    50   ~ 0
+MISO
+Text Label 550  4050 0    50   ~ 0
+D8_CS
+Text Label 550  5150 0    50   ~ 0
+RXD_IRQ
+Wire Wire Line
+	2100 3950 2100 4150
+Wire Wire Line
+	2100 3850 2150 3850
+Wire Wire Line
+	2150 3850 2150 4250
+Wire Wire Line
+	2150 4250 2100 4250
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:RESISTOR_0603_NOOUT R32
+U 1 0 5C433852
+P 2450 3700
+F 0 "R32" H 2450 3800 50  0000 C CNN
+F 1 "60" H 2450 3700 40  0000 C CNB
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 2450 3700 50  0001 C CNN
+F 3 "" H 2450 3700 50  0001 C CNN
+	1    2450 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 3650 2250 3650
+Wire Wire Line
+	2100 3550 2250 3550
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:+3V3 #+3V0105
+U 1 0 5C44D864
+P 1300 2500
+F 0 "#+3V0105" H 1300 2500 50  0001 C CNN
+F 1 "+3V3" V 1200 2300 59  0000 L BNN
+F 2 "" H 1300 2500 50  0001 C CNN
+F 3 "" H 1300 2500 50  0001 C CNN
+	1    1300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0104
+U 1 0 5C4501C6
+P 900 3300
+F 0 "#U$0104" H 900 3300 50  0001 C CNN
+F 1 "GND" H 800 3200 59  0000 L BNN
+F 2 "" H 900 3300 50  0001 C CNN
+F 3 "" H 900 3300 50  0001 C CNN
+	1    900  3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:CAP_CERAMIC0603_NO C31
+U 1 0 5C45021F
+P 1100 3100
+F 0 "C31" V 1010 3149 50  0000 C CNN
+F 1 "0.1uF" V 1190 3149 50  0000 C CNN
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 1100 3100 50  0001 C CNN
+F 3 "" H 1100 3100 50  0001 C CNN
+	1    1100 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:RESISTOR_0603_NOOUT R31
+U 1 0 5C45D6DD
+P 2450 3500
+F 0 "R31" H 2450 3600 50  0000 C CNN
+F 1 "60" H 2450 3500 40  0000 C CNB
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 2450 3500 50  0001 C CNN
+F 3 "" H 2450 3500 50  0001 C CNN
+	1    2450 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3650 2250 3700
+Wire Wire Line
+	2250 3050 2250 3500
+Connection ~ 2250 3500
+Wire Wire Line
+	2250 3500 2250 3550
+Connection ~ 2250 3700
+Wire Wire Line
+	2250 3700 2250 3850
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:CAP_CERAMIC0603_NO C32
+U 1 0 5C4A09EF
+P 1100 2850
+F 0 "C32" V 1010 2899 50  0000 C CNN
+F 1 "0.1uF" V 1190 2899 50  0000 C CNN
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 1100 2850 50  0001 C CNN
+F 3 "" H 1100 2850 50  0001 C CNN
+	1    1100 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	900  3200 900  3100
+Wire Wire Line
+	900  2850 1000 2850
+Wire Wire Line
+	1000 3100 900  3100
+Connection ~ 900  3100
+Wire Wire Line
+	900  3100 900  2850
+Connection ~ 1300 2850
+Wire Wire Line
+	1300 2850 1300 2600
+Connection ~ 1300 3100
+Wire Wire Line
+	1300 3100 1300 3000
+Wire Wire Line
+	1400 3000 1300 3000
+Connection ~ 1300 3000
+Wire Wire Line
+	1300 3000 1300 2850
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:CAP_CERAMIC0603_NO C33
+U 1 0 5C5298D4
+P 1800 3050
+F 0 "C33" V 1710 3099 50  0000 C CNN
+F 1 "0.1uF" V 1890 3099 50  0000 C CNN
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 1800 3050 50  0001 C CNN
+F 3 "" H 1800 3050 50  0001 C CNN
+	1    1800 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0105
+U 1 0 5C529983
+P 2000 3250
+F 0 "#U$0105" H 2000 3250 50  0001 C CNN
+F 1 "GND" H 1900 3150 59  0000 L BNN
+F 2 "" H 2000 3250 50  0001 C CNN
+F 3 "" H 2000 3250 50  0001 C CNN
+	1    2000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3050 2000 3150
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:VBUS #U$0106
+U 1 0 5C538210
+P 1700 2800
+F 0 "#U$0106" H 1700 2800 50  0001 C CNN
+F 1 "VBUS" H 1640 2840 42  0000 L BNN
+F 2 "" H 1700 2800 50  0001 C CNN
+F 3 "" H 1700 2800 50  0001 C CNN
+	1    1700 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2900 1700 3050
+Connection ~ 1700 3050
+Wire Wire Line
+	900  4250 450  4250
+$Comp
+L Connector_Generic:Conn_01x02 J31
+U 1 1 5C565DEF
+P 2850 3550
+F 0 "J31" H 2800 3650 50  0000 L CNN
+F 1 "Conn_01x02" H 2700 3350 50  0000 L CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 2850 3550 50  0001 C CNN
+F 3 "~" H 2850 3550 50  0001 C CNN
+	1    2850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3500 2650 3550
+Wire Wire Line
+	2650 3650 2650 3700
+$Comp
+L Connector_Generic:Conn_01x02 J32
+U 1 1 5C593189
+P 3500 3400
+F 0 "J32" V 3500 3500 50  0000 L CNN
+F 1 "Conn_01x02" V 3600 3250 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 3400 50  0001 C CNN
+F 3 "~" H 3500 3400 50  0001 C CNN
+	1    3500 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J33
+U 1 1 5C5932A2
+P 3500 3800
+F 0 "J33" V 3500 3900 50  0000 L CNN
+F 1 "Conn_01x02" V 3600 3600 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 3800 50  0001 C CNN
+F 3 "~" H 3500 3800 50  0001 C CNN
+	1    3500 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 3850 3200 3850
+Wire Wire Line
+	3500 3050 3500 3200
+Wire Wire Line
+	2250 3050 3500 3050
+Wire Wire Line
+	3500 3050 3850 3050
+Wire Wire Line
+	3850 3050 3850 3600
+Wire Wire Line
+	3850 3600 3500 3600
+Connection ~ 3500 3050
+Wire Wire Line
+	3200 3850 3200 3600
+Wire Wire Line
+	3200 3200 3400 3200
+Wire Wire Line
+	3400 3600 3200 3600
+Connection ~ 3200 3600
+Wire Wire Line
+	3200 3600 3200 3200
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0107
+U 1 0 5C66B9AE
+P 1700 5800
+F 0 "#U$0107" H 1700 5800 50  0001 C CNN
+F 1 "GND" H 1600 5700 59  0000 L BNN
+F 2 "" H 1700 5800 50  0001 C CNN
+F 3 "" H 1700 5800 50  0001 C CNN
+	1    1700 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5550 1700 5700
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:XTAL-3.2X1.5 X31
+U 1 1 5C67B6DD
+P 2450 4800
+F 0 "X31" V 2404 4928 50  0000 L CNN
+F 1 "XTAL-3.2X1.5" V 2495 4928 50  0000 L CNN
+F 2 "Adafruit Feather M0 RFMxx:XTAL3215" H 2450 4800 50  0001 C CNN
+F 3 "" H 2450 4800 50  0001 C CNN
+	1    2450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:CAP_CERAMIC0603_NO C35
+U 1 0 5C67C907
+P 2750 4550
+F 0 "C35" V 2660 4599 50  0000 C CNN
+F 1 "22pF" V 2840 4599 50  0000 C CNN
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 2750 4550 50  0001 C CNN
+F 3 "" H 2750 4550 50  0001 C CNN
+	1    2750 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:CAP_CERAMIC0603_NO C36
+U 1 0 5C68CF44
+P 2750 5050
+F 0 "C36" V 2660 5099 50  0000 C CNN
+F 1 "22pF" V 2840 5099 50  0000 C CNN
+F 2 "Adafruit Feather M0 RFMxx:0603-NO" H 2750 5050 50  0001 C CNN
+F 3 "" H 2750 5050 50  0001 C CNN
+	1    2750 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0108
+U 1 0 5C68CFC8
+P 2950 5150
+F 0 "#U$0108" H 2950 5150 50  0001 C CNN
+F 1 "GND" H 2850 5050 59  0000 L BNN
+F 2 "" H 2950 5150 50  0001 C CNN
+F 3 "" H 2950 5150 50  0001 C CNN
+	1    2950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0109
+U 1 0 5C68D035
+P 2950 4650
+F 0 "#U$0109" H 2950 4650 50  0001 C CNN
+F 1 "GND" H 2850 4550 59  0000 L BNN
+F 2 "" H 2950 4650 50  0001 C CNN
+F 3 "" H 2950 4650 50  0001 C CNN
+	1    2950 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4650 2250 4650
+Wire Wire Line
+	2250 4650 2250 4600
+Wire Wire Line
+	2250 4600 2450 4600
+Wire Wire Line
+	2450 4550 2550 4550
+Wire Wire Line
+	2450 4550 2450 4600
+Connection ~ 2450 4600
+Wire Wire Line
+	2850 4550 2950 4550
+Wire Wire Line
+	2100 4950 2250 4950
+Wire Wire Line
+	2250 4950 2250 5000
+Wire Wire Line
+	2250 5000 2450 5000
+Wire Wire Line
+	2450 5050 2450 5000
+Connection ~ 2450 5000
+Wire Wire Line
+	2450 5050 2550 5050
+Wire Wire Line
+	2850 5050 2950 5050
 $EndSCHEMATC
