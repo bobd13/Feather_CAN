@@ -1784,4 +1784,21 @@ F 3 "~" H 2850 4600 50  0001 C CNN
 	1    2850 4600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$?
+U 1 0 5C3CB150
+P 600 4600
+F 0 "#U$?" H 600 4600 50  0001 C CNN
+F 1 "GND" H 500 4500 59  0000 L BNN
+F 2 "" H 600 4600 50  0001 C CNN
+F 3 "" H 600 4600 50  0001 C CNN
+	1    600  4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  4600 750  4600
+Wire Wire Line
+	750  4600 750  4500
+Wire Wire Line
+	750  4500 600  4500
 $EndSCHEMATC

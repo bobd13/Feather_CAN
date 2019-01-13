@@ -1537,9 +1537,6 @@ $EndComp
 Wire Wire Line
 	2250 4700 2250 4750
 Wire Wire Line
-	2250 4100 2250 4550
-Connection ~ 2250 4550
-Wire Wire Line
 	2250 4550 2250 4600
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:CAP_CERAMIC0603_NO C32
@@ -1766,22 +1763,6 @@ Text Label 8300 6700 0    50   ~ 0
 TXLED
 Text Label 8300 6800 0    50   ~ 0
 USBHOSTEN
-$Comp
-L SAMTEC-TSM-102-01-X-SV:SAMTEC-TSM-102-01-X-SV J31
-U 1 1 5C3C9195
-P 2850 4600
-F 0 "J31" H 2950 4850 50  0000 L CNN
-F 1 "SAMTEC-TSM-102-01-X-SV" H 2900 4350 50  0000 L CNN
-F 2 "SAMTEC-TSM-102-01-X-SV" H 2850 4600 50  0001 L BNN
-F 3 "SAM8979-ND" H 2850 4600 50  0001 L BNN
-F 4 "Board-To-Board Connector, TSM Series, Surface Mount, Header, 2 POS, 2.54 mm, Gold Plated Contacts" H 2850 4600 50  0001 L BNN "Field4"
-F 5 "https://www.digikey.com/product-detail/en/samtec-inc/TSM-102-01-L-SV/SAM8979-ND/2685520?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 2850 4600 50  0001 L BNN "Field5"
-F 6 "TSM-102-01-L-SV" H 2850 4600 50  0001 L BNN "Field6"
-F 7 "Samtec Inc." H 2850 4600 50  0001 L BNN "Field7"
-F 8 "None" H 2850 4600 50  0001 L BNN "Field8"
-	1    2850 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2150 3200 2150 4600
 Connection ~ 2150 4600
@@ -1792,4 +1773,15 @@ Wire Wire Line
 Wire Wire Line
 	2300 4700 2250 4700
 Connection ~ 2250 4700
+$Comp
+L Connector_Generic:Conn_01x02 J31
+U 1 1 5C4611FE
+P 2850 4600
+F 0 "J31" V 2850 4700 50  0000 L CNN
+F 1 "Conn_01x02" V 2950 4400 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2850 4600 50  0001 C CNN
+F 3 "~" H 2850 4600 50  0001 C CNN
+	1    2850 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
