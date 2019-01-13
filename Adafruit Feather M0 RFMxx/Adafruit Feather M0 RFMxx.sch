@@ -1209,12 +1209,6 @@ Text Notes 11900 1500 0    59   ~ 0
 2.0K  = 500mA
 Text Notes 11900 1600 0    59   ~ 0
 1.0K  = 1000mA
-Text Notes 8300 6700 0    59   ~ 0
-TXLED
-Text Notes 8300 6800 0    59   ~ 0
-USBHOSTEN
-Text Notes 4600 5300 0    59   ~ 0
-RXLED
 Text Notes 10500 1000 0    59   ~ 0
 USB AND BATTERY CHARGING
 Text Notes 10100 5900 0    59   ~ 0
@@ -1495,7 +1489,7 @@ $EndComp
 Wire Wire Line
 	2100 4700 2250 4700
 Wire Wire Line
-	2100 4600 2250 4600
+	2100 4600 2150 4600
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:+3V3 #+3V0105
 U 1 0 5C44D864
@@ -1543,13 +1537,7 @@ $EndComp
 Wire Wire Line
 	2250 4700 2250 4750
 Wire Wire Line
-	2250 4100 2250 4550
-Connection ~ 2250 4550
-Wire Wire Line
 	2250 4550 2250 4600
-Connection ~ 2250 4750
-Wire Wire Line
-	2250 4750 2250 4900
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:CAP_CERAMIC0603_NO C32
 U 1 0 5C4A09EF
@@ -1620,17 +1608,6 @@ Wire Wire Line
 Connection ~ 1700 4100
 Wire Wire Line
 	900  5300 450  5300
-$Comp
-L Connector_Generic:Conn_01x02 J31
-U 1 1 5C565DEF
-P 2850 4600
-F 0 "J31" H 2800 4700 50  0000 L CNN
-F 1 "Conn_01x02" H 2700 4400 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 2850 4600 50  0001 C CNN
-F 3 "~" H 2850 4600 50  0001 C CNN
-	1    2850 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 4550 2650 4600
 Wire Wire Line
@@ -1638,47 +1615,47 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J32
 U 1 1 5C593189
-P 3500 4450
-F 0 "J32" V 3500 4550 50  0000 L CNN
-F 1 "Conn_01x02" V 3600 4300 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 4450 50  0001 C CNN
-F 3 "~" H 3500 4450 50  0001 C CNN
-	1    3500 4450
+P 3500 3550
+F 0 "J32" V 3500 3650 50  0000 L CNN
+F 1 "Conn_01x02" V 3600 3400 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 3550 50  0001 C CNN
+F 3 "~" H 3500 3550 50  0001 C CNN
+	1    3500 3550
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J33
 U 1 1 5C5932A2
-P 3500 4850
-F 0 "J33" V 3500 4950 50  0000 L CNN
-F 1 "Conn_01x02" V 3600 4650 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 4850 50  0001 C CNN
-F 3 "~" H 3500 4850 50  0001 C CNN
-	1    3500 4850
+P 3500 3950
+F 0 "J33" V 3500 4050 50  0000 L CNN
+F 1 "Conn_01x02" V 3600 3750 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3500 3950 50  0001 C CNN
+F 3 "~" H 3500 3950 50  0001 C CNN
+	1    3500 3950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2250 4900 3200 4900
+	2300 4000 3200 4000
 Wire Wire Line
-	3500 4100 3500 4250
+	3500 3200 3500 3350
 Wire Wire Line
-	2250 4100 3500 4100
+	2150 3200 3500 3200
 Wire Wire Line
-	3500 4100 3850 4100
+	3500 3200 3850 3200
 Wire Wire Line
-	3850 4100 3850 4650
+	3850 3200 3850 3750
 Wire Wire Line
-	3850 4650 3500 4650
-Connection ~ 3500 4100
+	3850 3750 3500 3750
+Connection ~ 3500 3200
 Wire Wire Line
-	3200 4900 3200 4650
+	3200 4000 3200 3750
 Wire Wire Line
-	3200 4250 3400 4250
+	3200 3350 3400 3350
 Wire Wire Line
-	3400 4650 3200 4650
-Connection ~ 3200 4650
+	3400 3750 3200 3750
+Connection ~ 3200 3750
 Wire Wire Line
-	3200 4650 3200 4250
+	3200 3750 3200 3350
 $Comp
 L Adafruit_Feather_M0_RFMxx-eagle-import:GND #U$0107
 U 1 0 5C66B9AE
@@ -1774,4 +1751,37 @@ Wire Wire Line
 Wire Wire Line
 	2850 6100 2950 6100
 Connection ~ 1300 3900
+Wire Wire Line
+	5000 5300 4600 5300
+Text Label 4600 5300 0    50   ~ 0
+RXLED
+Wire Wire Line
+	8000 6700 8700 6700
+Wire Wire Line
+	8000 6800 8700 6800
+Text Label 8300 6700 0    50   ~ 0
+TXLED
+Text Label 8300 6800 0    50   ~ 0
+USBHOSTEN
+Wire Wire Line
+	2150 3200 2150 4600
+Connection ~ 2150 4600
+Wire Wire Line
+	2150 4600 2250 4600
+Wire Wire Line
+	2300 4000 2300 4700
+Wire Wire Line
+	2300 4700 2250 4700
+Connection ~ 2250 4700
+$Comp
+L Connector_Generic:Conn_01x02 J31
+U 1 1 5C4611FE
+P 2850 4600
+F 0 "J31" V 2850 4700 50  0000 L CNN
+F 1 "Conn_01x02" V 2950 4400 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2850 4600 50  0001 C CNN
+F 3 "~" H 2850 4600 50  0001 C CNN
+	1    2850 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
