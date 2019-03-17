@@ -1,4 +1,4 @@
-update=Wed 19 Dec 2018 10:43:21 PM CST
+update=Thu 07 Feb 2019 09:13:31 PM CST
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=empty.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=../../Adafruit-Feather-M0-RFM-Lora-PCB-plots/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
