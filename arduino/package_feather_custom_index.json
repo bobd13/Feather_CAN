@@ -7,14 +7,14 @@
       "maintainer": "BD",
       "platforms": [
         {
-					"name": "Feather M0 custom boards",
+          "name": "Feather M0 custom boards",
           "architecture": "samd",
           "category": "Contributed",
           "version": "1.5.9.0",
           "archiveFileName": "feather_custom-1.5.9.0.tgz",
           "checksum": "SHA-256:5f7a6a1319c99f81c7f9f437a1a3318af853ee387a49669c5f3dfd78c1033ff7",
           "url": "https://raw.githubusercontent.com/bobd13/Feather_CAN/qwiic_and_can/arduino/feather_custom-1.5.9.0.tgz",
-					"size": "1258020",
+          "size": "1258020",
           "boards": [
             {
               "name": "Feather M0 CAN"
