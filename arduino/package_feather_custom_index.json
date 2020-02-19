@@ -11,9 +11,9 @@
           "architecture": "samd",
           "category": "Contributed",
           "version": "1.5.9.0",
-          "archiveFileName": "feather_custom_index-1.5.9.0.tgz",
-          "checksum": "SHA-256:812b94820298c1ceac02630e6d2360fc87889c95d8f4a3944a9043eb8ea57c6b",
-          "url": "https://github.com/bobd13/Feather_CAN/arduino/package_feather_custom_index-1.5.9.0.tgz",
+          "archiveFileName": "feather_custom-1.5.9.0.tgz",
+          "checksum": "SHA-256:5f7a6a1319c99f81c7f9f437a1a3318af853ee387a49669c5f3dfd78c1033ff7",
+          "url": "https://github.com/bobd13/Feather_CAN/tree/qwiic_and_can/arduino/feather_custom-1.5.9.0.tgz",
           "size": "1258020"
           "boards": [
             {
