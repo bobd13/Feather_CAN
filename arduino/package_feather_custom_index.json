@@ -2,7 +2,7 @@
   "packages": [
     {
       "name": "feather_custom",
-      "websiteURL": "https://github.com/bobd13/Feather_CAN",
+      "websiteURL": "https://raw.githubusercontent.com/bobd13/Feather_CAN/qwiic_and_can/arduino/",
       "email": "",
       "maintainer": "BD",
       "platforms": [
@@ -13,7 +13,7 @@
           "version": "1.5.9.0",
           "archiveFileName": "feather_custom-1.5.9.0.tgz",
           "checksum": "SHA-256:5f7a6a1319c99f81c7f9f437a1a3318af853ee387a49669c5f3dfd78c1033ff7",
-          "url": "https://github.com/bobd13/Feather_CAN/tree/qwiic_and_can/arduino/feather_custom-1.5.9.0.tgz",
+          "url": "https://raw.githubusercontent.com/bobd13/Feather_CAN/qwiic_and_can/arduino/feather_custom-1.5.9.0.tgz",
           "size": "1258020"
           "boards": [
             {
