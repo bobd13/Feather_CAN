@@ -7,7 +7,7 @@
       "maintainer": "BD",
       "platforms": [
         {
-          "name": "Feather M0 custom boards"
+					"name": "Feather M0 custom boards",
           "architecture": "samd",
           "category": "Contributed",
           "version": "1.5.9.0",
