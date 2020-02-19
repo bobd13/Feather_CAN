@@ -3,7 +3,6 @@
     {
       "name": "feather_custom",
       "websiteURL": "https://raw.githubusercontent.com/bobd13/Feather_CAN/qwiic_and_can/arduino/",
-      "email": "",
       "maintainer": "BD",
       "platforms": [
         {
