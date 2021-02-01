@@ -1,4 +1,4 @@
-197359302147853
+197445881887172
 Adafruit Feather M0 RFMxx
 1X01_ROUND
 
@@ -40237,27 +40237,6 @@ eSOP-12B
 0
 0
 0
-Proto FeatherWing
-1X12_ROUND_76MIL
-0
-0
-0
-12
-12
-Proto FeatherWing
-1X16_ROUND_76MIL
-0
-0
-0
-16
-16
-Proto FeatherWing
-FEATHERWING
-0
-0
-0
-30
-30
 RF_Antennas
 Pulse_W3011
 0
@@ -51320,6 +51299,20 @@ OPA4343NA&slash_2K5
 14
 footprints
 SAMTEC-TSW-103-08-X-T-RA
+0
+0
+0
+9
+9
+mini-fuse
+BK-6013
+0
+0
+0
+4
+4
+power_conn
+CUI_PJ-002A
 0
 0
 0
